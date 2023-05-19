@@ -1,6 +1,7 @@
 function charCountr(str: string): Record<string, number> {
   let result: Record<string, number> = {};
 
+  // change the lib inside the TypeScript config file to `es2021`, to prevent error of not finding `replaceAll()`
   str
     .toLowerCase()
     .replaceAll(" ", "")
