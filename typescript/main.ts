@@ -1,4 +1,4 @@
-function charCountr(str: string): Record<string, number> {
+function countChars(str: string): Record<string, number> {
   let result: Record<string, number> = {};
 
   // change the lib inside the TypeScript config file to `es2021`, to prevent error of not finding `replaceAll()`
@@ -18,8 +18,7 @@ function charCountr(str: string): Record<string, number> {
 }
 
 function main() {
-  console.log("1 Number of characters inside string input");
-  let res = charCountr("1 Number of characters inside string input");
+  let res = countChars("1 Number of characters inside string input");
   console.table(res);
 }
 
