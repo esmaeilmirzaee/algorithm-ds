@@ -1,5 +1,6 @@
 void main(List<String> args) {
-  print(countChars('This is a piece   of a text!.'));
+  print(countChars(
+      'Hello, Dart and others. This is a  long long piece of text!...'));
 }
 
 Map<String, int> countChars(String input) {

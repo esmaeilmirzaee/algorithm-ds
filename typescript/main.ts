@@ -18,7 +18,9 @@ function countChars(str: string): Record<string, number> {
 }
 
 function main() {
-  let res = countChars("1 Number of characters inside string input");
+  let res = countChars(
+    "Hello, TypeScript/JavaScript and others. This is a  long long piece of text!..."
+  );
   console.table(res);
 }
 

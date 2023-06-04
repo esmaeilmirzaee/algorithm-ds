@@ -10,7 +10,9 @@ def count_chars(text):
 
 
 def main():
-    print(count_chars("Hello, Python and others"))
+    print(
+        count_chars("Hello, Python and others. This is a  long long piece of text!...")
+    )
 
 
 if __name__ == "__main__":

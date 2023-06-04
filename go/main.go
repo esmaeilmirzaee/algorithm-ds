@@ -20,5 +20,5 @@ func countChars(text string) map[string]int {
 }
 
 func main() {
-	fmt.Println(countChars("Hello, Go"))
+	fmt.Println(countChars("Hello, Go and others. This is a  long long piece of text!..."))
 }
