@@ -8,7 +8,7 @@ The question is as simple as count the number of characters inside a string vari
 # sample output
 {
   'a': 1,
-  's': 2,
+  's': 4,
 }
 ```
 
@@ -23,6 +23,10 @@ The question is as simple as count the number of characters inside a string vari
 3.1 Python
 
 3.2 TypeScript
+
+> Property replaceAll doesn't exist on type 'string'. Do you need to change your target library. Try changing the compiler option to 'es2021' or later.
+
+As the error indicates, the `replaceAll` function is available since `es2021`.
 
 3.3 Go
 
